@@ -1,0 +1,27 @@
+2022-02-21 12:31:20 [main] INFO  c.PSL.management.RegisterApplication -Starting RegisterApplication using Java 17.0.1 on Faizan-Khan with PID 15604 (E:\sts\Register\target\classes started by faiz in E:\sts\Register)
+2022-02-21 12:31:20 [main] INFO  c.PSL.management.RegisterApplication -No active profile set, falling back to default profiles: default
+2022-02-21 12:31:22 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-21 12:31:22 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Finished Spring Data repository scanning in 125 ms. Found 6 JPA repository interfaces.
+2022-02-21 12:31:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 9985 (http)
+2022-02-21 12:31:24 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2022-02-21 12:31:24 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-02-21 12:31:24 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2022-02-21 12:31:24 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 3245 ms
+2022-02-21 12:31:24 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-21 12:31:24 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2022-02-21 12:31:26 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2022-02-21 12:31:28 [main] INFO  o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-21 12:31:28 [main] INFO  org.hibernate.Version -HHH000412: Hibernate ORM core version 5.4.30.Final
+2022-02-21 12:31:29 [main] INFO  o.h.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-21 12:31:29 [main] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-21 12:31:32 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-21 12:31:32 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-21 12:31:35 [main] INFO  o.s.s.web.DefaultSecurityFilterChain -Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c167296, org.springframework.security.web.context.SecurityContextPersistenceFilter@5add7380, org.springframework.security.web.header.HeaderWriterFilter@3c62c81f, org.springframework.security.web.csrf.CsrfFilter@74d3b331, org.springframework.security.web.authentication.logout.LogoutFilter@62878d7c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1e6e29d6, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6ace3, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@506e382b, org.springframework.security.web.session.ConcurrentSessionFilter@49bc1f6c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1c25385a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7657d29f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5a464be7, org.springframework.security.web.session.SessionManagementFilter@a36ff0b, org.springframework.security.web.access.ExceptionTranslationFilter@2ba9765b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@68cc6319]
+2022-02-21 12:31:35 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping -Adding welcome page: class path resource [static/index.html]
+2022-02-21 12:31:36 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 9985 (http) with context path ''
+2022-02-21 12:31:36 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor -No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2022-02-21 12:31:36 [main] INFO  c.PSL.management.RegisterApplication -Started RegisterApplication in 16.839 seconds (JVM running for 22.266)
+2022-02-21 12:31:51 [http-nio-9985-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-21 12:31:51 [http-nio-9985-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-02-21 12:31:51 [http-nio-9985-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 0 ms
+2022-02-21 12:32:41 [http-nio-9985-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
